@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS users;
+
+CREATE TABLE users (
+    person_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    fullname TEXT NOT NULL
+);
